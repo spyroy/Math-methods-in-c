@@ -2,8 +2,9 @@
 #include "myMath.h"
 
 
-int main(double x)
+int main(int argc, char **argv)
 {
+	double x;
 	printf("please insert a real number:\n");
 	scanf("%lf" , &x);
 	double first_1 = Exp((int)(x));
